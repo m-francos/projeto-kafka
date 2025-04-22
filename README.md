@@ -53,10 +53,10 @@ The challenge involves creating a sales data flow using Kafka to transmit messag
 
 3. **Run the Message Producer**
 
-   Run the Python script `producer_vendas_ecommerce.py` to generate and send sales data messages to Kafka:
+   Run the Python script `producer.py` to generate and send sales data messages to Kafka:
 
    ```bash
-   python3 producer_vendas_ecommerce.py
+   python3 producer.py
    ```
 
 4. **Run the Consumer with PySpark**
@@ -64,7 +64,7 @@ The challenge involves creating a sales data flow using Kafka to transmit messag
    Run the consumer in PySpark with the Kafka connector to process the messages:
 
    ```bash
-   spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0 consumer_pyspark_ecommerce.py
+   spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0 consumer.py
    ```
 
 5. **Stop the Process**
