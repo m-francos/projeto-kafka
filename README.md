@@ -73,8 +73,8 @@ The challenge involves creating a sales data flow using Kafka to transmit messag
 
 ## Project Structure
 
-- `producer_vendas_ecommerce.py`: Python script that sends simulated sales data to Kafka.
-- `consumer_pyspark_ecommerce.py`: PySpark script that reads messages and processes the data.
+- `producer.py`: Python script that sends simulated sales data to Kafka.
+- `consumer.py`: PySpark script that reads messages and processes the data.
 - `requirements.txt`: File containing project dependencies.
 - `README.md`: Instructions and project details.
 
